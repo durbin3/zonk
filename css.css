@@ -1,0 +1,11 @@
+.outer_container {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+
+.outer_container div {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
